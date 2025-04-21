@@ -1,0 +1,27 @@
+
+  .search-container {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    clear: both;
+    gap: 10px;
+  }
+  #search-input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  #generate-btn {
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
